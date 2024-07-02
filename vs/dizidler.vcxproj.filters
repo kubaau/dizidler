@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{d7caeef6-012e-4831-a5c8-10a0daade656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{e2498ba1-72cc-4b1a-8ceb-b7282a1e1b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{56afa4d7-cfca-484d-8adb-e6f91e378fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{725b25f6-8a61-451c-a5f5-a18c6baef89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{af0c09ca-8c9c-419f-8fbe-0862e86ba793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\World.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Shape.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vertex.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Loading.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SwdWldData.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\WorldDatData.cpp">
+      <Filter>Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MidiPlayer.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FrameCounter.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Window.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\IOHandler.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Subsystems.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\World.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Shape.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Vertex.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Color.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Colors.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Position.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Translation.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Loading.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Camera.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Constants.hpp">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SwdWldData.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WorldDatData.hpp">
+      <Filter>Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MidiPlayer.hpp">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FrameCounter.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Window.hpp">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Stage.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IOHandler.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Subsystems.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
