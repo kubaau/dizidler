@@ -1,3 +1,6 @@
 [submodule "tools"]
 	path = tools
 	url = git@github.com:kubaau/tools.git
+[submodule "sdl2-cmake-modules"]
+	path = sdl2-cmake-modules
+	url = git@github.com:aminosbh/sdl2-cmake-modules.git

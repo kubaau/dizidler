@@ -6,7 +6,7 @@ include(../../tools/CMakeCommon.cmake)
 
 verifyCppCompiler(8 6)
 
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/sdl2)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/../sdl2-cmake-modules)
 
 find_package(GLEW REQUIRED)
 find_package(OpenGL REQUIRED)
