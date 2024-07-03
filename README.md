@@ -5,6 +5,7 @@
 ### Windows
 
 - [boost](https://www.boost.org/users/download/)
+- [DOSBox](https://www.dosbox.com/download.php?main=1)
 - [GLEW](https://glew.sourceforge.net/)
 - [SDL2](https://github.com/libsdl-org/SDL/releases)
 - [SDL2_image](https://github.com/libsdl-org/SDL_image/releases)
@@ -12,4 +13,13 @@
 
 ### Ubuntu
 
-`sudo apt install libboost-dev libglew-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev`
+`sudo apt install dosbox libboost-dev libglew-dev libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev`
+
+### The Settlers 2 Gold Edition game files
+
+Run `cpassets.sh` from the `assets` folder, passing paths to your S2 folder and DOSBox exe. e.g.
+
+```
+cd assets
+./cpassets.sh /c/S2 "/c/Program Files (x86)/DOSBox-0.74-3/DOSBox.exe" # Windows
+```
