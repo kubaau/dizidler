@@ -1,3 +1,5 @@
+Playground for personal experiments with The Settlers 2 game files, created circa 2022.
+
 `git clone --recursive git@github.com:kubaau/dizidler.git`
 
 ## Requires
