@@ -21,5 +21,6 @@ Run `cpassets.sh` from the `assets` folder, passing paths to your S2 folder and 
 
 ```
 cd assets
+./cpassets.sh ~/S2 dosbox # Ubuntu
 ./cpassets.sh /c/S2 "/c/Program Files (x86)/DOSBox-0.74-3/DOSBox.exe" # Windows
 ```
